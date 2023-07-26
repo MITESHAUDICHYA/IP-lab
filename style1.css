@@ -1,0 +1,24 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;700&family=Roboto:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body{
+    background-color:lightblue ;
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid darkblue;
+  }
+  h1{
+    color: antiquewhite;
+  }
+  #borderimg {
+    border-image: url(border.png) 30 round;
+  }
